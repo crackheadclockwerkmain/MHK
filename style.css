@@ -1,0 +1,50 @@
+header{
+    background-color: white;
+    padding-bottom: 50px;
+    opacity: 60%;
+    
+    transition-duration: 0.5s;
+
+}
+header:hover{
+    opacity: 100%;
+    
+    transition-duration: 0.5s;
+}
+body{
+    background-color: #282755;
+    background-image: url("bilder/wallp.jpg");
+    background-size: cover;
+    overflow:hidden;
+}
+
+.headerbutton {
+    
+    font-size: 50px;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+    background-color: #282755;
+    color: white;
+    margin-top: 50px;
+    margin-inline: 30px;
+    transition-duration: 0.5s;
+
+
+}
+
+.headerbutton:hover {
+
+        transition-duration: 0.5s;
+    background-color: white;
+    color: #282755;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 20px 50px 0 rgba(0, 0, 0, 0.19);
+    border: #282755 solid 5px;
+}
+
+
+#headerimg{
+    margin: .25%;
+    width: 300px;
+    float:right;
+}
